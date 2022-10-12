@@ -1,0 +1,21 @@
+body {
+  background-color: #737373;
+}
+
+#circles {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+section > img {
+  width: 33.33%;
+  size-adjust: 20px;
+  display: block;
+  margin: 0 auto;
+  border: 10px solid #444444;
+  border-radius: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
