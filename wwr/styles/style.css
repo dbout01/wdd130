@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&family=Rubik+Dirt&display=swap");
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -7,6 +9,8 @@ nav a {
   text-align: center;
   color: #e1e289;
   text-decoration: none;
+  font-family: "Inter Tight", Helvetica, sans-serif;
+  padding: 35px;
 }
 
 #hero-msg h1,
@@ -18,8 +22,16 @@ nav a {
   text-align: center;
 }
 
+#logo_link {
+  padding-top: 5px;
+}
+
 main section {
   text-align: center;
+}
+
+main section img {
+  box-sizing: border-box;
 }
 
 #background {
@@ -29,6 +41,8 @@ main section {
 
 body {
   background-color: #e1e289;
+  margin: 0;
+  padding: 0;
 }
 header {
   background-color: #04471c;
@@ -44,6 +58,10 @@ nav a:hover {
   background-color: #ffd9da;
   color: red;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .book:hover,
@@ -52,34 +70,62 @@ nav a:hover {
   color: blue;
 }
 
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px;
+}
+
+.card-img {
+  border: 10px solid black;
+}
+
 .msg {
   background-color: white;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 footer {
   background-color: #04471c;
-  color: #00141b;
+  color: white;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 
 .home-title {
   color: #00141b;
+  font-family: "Rubik Dirt", cursive;
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 h4 {
   color: black;
 }
 
+h2 {
+  margin: 0;
+}
+
 .msg h2 {
   color: black;
+  font-family: "Rubik Dirt", cursive;
 }
 
 .msg p {
   color: black;
+  font-size: 0.8em;
+  padding-bottom: 15px;
 }
 
 footer a {
   color: white;
   text-decoration: none;
+}
+
+footer .social img {
+  padding-top: 15px;
 }
 
 footer a:hover {
@@ -91,6 +137,7 @@ footer a:hover {
 }
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 
 #hero-img {
