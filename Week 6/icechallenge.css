@@ -1,0 +1,49 @@
+#tartandsweet {
+  position: absolute;
+  left: 250px;
+  top: 200px;
+  z-index: 2;
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+.img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  padding: 0;
+  margin: 0;
+}
+
+#cherries {
+  text-align: right;
+  z-index: 2;
+  color: darkred;
+  padding: 0px;
+  margin: 0px;
+  background-color: #b9b8b9;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.leftside {
+  grid-column: 1/2;
+  grid-row: 1;
+}
+img {
+  width: 100%;
+}
+.rightside {
+  grid-column: 2/4;
+  grid-row: 1;
+  background-color: #b9b8b9;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
