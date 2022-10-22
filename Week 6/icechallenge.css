@@ -1,49 +1,42 @@
-#tartandsweet {
-  position: absolute;
-  left: 250px;
-  top: 200px;
-  z-index: 2;
-  font-size: 50px;
-  padding: 0;
-  margin: 0;
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-
-.img {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-  padding: 0;
-  margin: 0;
-}
-
-#cherries {
-  text-align: right;
-  z-index: 2;
-  color: darkred;
-  padding: 0px;
-  margin: 0px;
-  background-color: #b9b8b9;
-}
-
-.gridcontainer {
+#container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  width: 70%;
+  margin: 0 auto;
 }
-.leftside {
-  grid-column: 1/2;
-  grid-row: 1;
+#shade {
+  background-color: #b9b8b9;
+  height: 100%;
+  width: 100%;
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+h1 {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  font-size: 100px;
+  letter-spacing: 0.1em;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+}
+h2 {
+  font-size: 50px;
+  letter-spacing: 0.2em;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  color: #9c0e11;
+  align-self: start;
+  margin-top: 0;
 }
 img {
+  grid-column: 1/2;
+  grid-row: 1/3;
   width: 100%;
-}
-.rightside {
-  grid-column: 2/4;
-  grid-row: 1;
-  background-color: #b9b8b9;
-}
-
-body {
-  padding: 0;
-  margin: 0;
 }
