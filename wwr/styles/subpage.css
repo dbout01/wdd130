@@ -1,9 +1,13 @@
 h1 {
   text-align: center;
+  margin-top: 10px;
+  z-index: 2;
+  font-family: "Rubik Dirt", Arial, Helvetica, sans-serif;
 }
 
 #img {
   width: 100%;
+  z-index: -1;
 }
 
 h3 {
