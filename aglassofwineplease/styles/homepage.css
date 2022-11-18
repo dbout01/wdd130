@@ -2,3 +2,90 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+nav a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", Helvetica, sans-serif;
+  padding: 35px;
+}
+
+nav {
+  display: flex;
+  grid-template-columns: 150px auto;
+  justify-content: space-evenly;
+}
+
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+
+body {
+  background-color: #b37d7e;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+header {
+  background-color: #740023;
+  display: grid;
+  grid-template-columns: 5S50px auto;
+}
+
+nav a:hover {
+  background-color: #740023;
+  color: #eeeef0;
+}
+
+footer {
+  background-color: #740023;
+  color: white;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+h1 {
+  text-align: center;
+  font-family: "playfair display", Helvetica, sans-serif;
+  font-size: 50px;
+}
+
+h2 {
+  margin: 0;
+}
+
+footer a {
+  color: white;
+}
+
+footer .social img {
+  padding-top: 10px;
+}
+
+footer a:hover {
+  color: #eeeef0;
+}
+
+.logo {
+  width: 200px;
+}
+
+footer p a:hover {
+  color: #eeeef0;
+}
