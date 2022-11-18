@@ -107,7 +107,7 @@ footer p a:hover {
   color: #eeeef0;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1500px) {
   .home-grid {
     display: block;
     height: auto;
