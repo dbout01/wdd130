@@ -12,17 +12,22 @@ nav a {
   color: white;
   text-decoration: none;
   font-family: "Poppins", Helvetica, sans-serif;
-  padding: 35px;
+  padding: 0%;
 }
 
 nav {
   display: flex;
   grid-template-columns: 150px auto;
   justify-content: space-evenly;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", Helvetica, sans-serif;
+  padding: 20px;
 }
 
 #logo_link {
-  padding-top: 5px;
+  padding-top: 0%;
   justify-self: center;
   align-self: center;
 }
@@ -84,6 +89,7 @@ footer a:hover {
 
 .logo {
   width: 200px;
+  padding-bottom: 0%;
 }
 
 footer p a:hover {
