@@ -39,10 +39,14 @@ body {
   color: white;
 }
 
+.img {
+  border-radius: 25px;
+}
+
 header {
   background-color: #740023;
   display: grid;
-  grid-template-columns: 5S50px auto;
+  grid-template-columns: 50px auto;
 }
 
 nav a:hover {
