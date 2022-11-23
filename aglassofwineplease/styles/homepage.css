@@ -39,10 +39,6 @@ body {
   color: white;
 }
 
-.img {
-  border-radius: 25px;
-}
-
 header {
   background-color: #740023;
   display: grid;
@@ -69,6 +65,11 @@ p {
 }
 
 .home-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.home-picture-grid {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
 }
