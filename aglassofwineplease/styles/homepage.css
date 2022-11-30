@@ -96,3 +96,17 @@ p {
   font-family: "poppins";
   color: white;
 }
+
+@media screen and (max-width: 900px) {
+  nav,
+  footer {
+    flex-direction: column;
+  }
+  nav a {
+    display: block;
+    padding: 15px;
+
+  footer {
+    margin-top: 25px;
+  }
+}
