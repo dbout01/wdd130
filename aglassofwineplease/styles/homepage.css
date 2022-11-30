@@ -74,6 +74,10 @@ a {
   font-family: "Poppins";
 }
 
+a:hover {
+  color: #b37d7e;
+}
+
 body {
   font-size: 20px;
   background-color: #8b0022;
