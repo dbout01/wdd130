@@ -71,7 +71,7 @@ h1 {
 a {
   text-decoration: none;
   color: white;
-  font-family: "Poppins";
+  font-family: "Garamond", Arial, Helvetica, sans-serif;
 }
 
 a:hover {
@@ -93,6 +93,6 @@ footer {
 }
 
 p {
-  font-family: "Garamond";
+  font-family: "poppins";
   color: white;
 }
