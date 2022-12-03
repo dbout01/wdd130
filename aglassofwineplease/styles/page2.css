@@ -1,3 +1,71 @@
+h2 {
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+p {
+  text-indent: 20px;
+}
+
+img.mariana {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border-radius: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img.nick {
+  grid-column: 2/3;
+  grid-row: ;
+  border-radius: 100px;
+  display: block;
+  margin-left: 19em;
+}
+
+img.angela {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  border-radius: 100px;
+  display: block;
+  margin-left: 19em;
+}
+
+img.donald {
+  grid-column: 2/3;
+  grid-row: 5/6;
+  border-radius: 100px;
+  display: block;
+  margin-left: 19em;
+}
+
+img.christian {
+  grid-column: 1/2;
+  grid-row: 5/6;
+  border-radius: 100px;
+  display: block;
+  margin-left: 19em;
+}
+
+img.cara {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  border-radius: 100px;
+  display: block;
+  margin-left: 19em;
+}
+
 .navbar {
   background-color: #740023;
   overflow: hidden;
