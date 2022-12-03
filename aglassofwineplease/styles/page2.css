@@ -28,7 +28,7 @@ img.mariana {
 
 img.nick {
   grid-column: 2/3;
-  grid-row: ;
+  grid-row: 1/2;
   border-radius: 100px;
   display: block;
   margin-left: 19em;
