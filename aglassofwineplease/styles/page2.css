@@ -31,7 +31,8 @@ img.nick {
   grid-row: 1/2;
   border-radius: 100px;
   display: block;
-  margin-left: 19em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img.angela {
@@ -39,7 +40,8 @@ img.angela {
   grid-row: 3/4;
   border-radius: 100px;
   display: block;
-  margin-left: 19em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img.donald {
@@ -47,7 +49,8 @@ img.donald {
   grid-row: 5/6;
   border-radius: 100px;
   display: block;
-  margin-left: 19em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img.christian {
@@ -55,7 +58,8 @@ img.christian {
   grid-row: 5/6;
   border-radius: 100px;
   display: block;
-  margin-left: 19em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img.cara {
@@ -63,7 +67,8 @@ img.cara {
   grid-row: 3/4;
   border-radius: 100px;
   display: block;
-  margin-left: 19em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navbar {
