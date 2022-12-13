@@ -20,11 +20,11 @@ Fonts are separated by a | */
   --headline-color-on-color: white; /* headlines on a colored background */
   --paragraph-color-on-white: black; /* paragraph text on a white background */
   --paragraph-color-on-color: white; /* paragraph text on a colored background */
-  --paragraph-background-color: #740023;
+  --paragraph-background-color: #8b0022;
   --nav-link-color: black;
   --nav-background-color: #eeeef0;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #b37d7e;
+  --nav-hover-link-color: #b37d7e;
+  --nav-hover-background-color: #8b0022;
 }
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
@@ -39,6 +39,8 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  width: 350px;
+  height: 500px;
 }
 h1,
 h2,
@@ -157,6 +159,11 @@ nav a:hover {
 }
 .sm-page3 {
   grid-area: page3;
+  background-color: #ccc;
+  line-height: 3em;
+}
+.sm-page4 {
+  grid-area: 4/4;
   background-color: #ccc;
   line-height: 3em;
 }
