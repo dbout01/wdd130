@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+header {
+  display: grid;
+  grid-template-columns: 150px auto;
+  align-items: center;
+  background: #740023;
+  text-decoration: none;
+}
+
+.logo {
+  width: 80%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+main img {
+  width: 100%;
+}
+
+#pic1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+#pic2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+#pic3 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+#pic4 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+main p {
+  line-height: 50px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+main h3 {
+  padding: 10px;
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Garamond", Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+  color: #b37d7e;
+}
+
+body {
+  font-size: 20px;
+  background-color: #8b0022;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #740023;
+  text-decoration: none;
+  padding: 0%;
+}
+
+p {
+  font-family: "poppins";
+  color: white;
+}
+
+.navbar {
+  background-color: #740023;
+  overflow: hidden;
+  position: relative;
+  bottom: -3px;
+  width: 35.3%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: solid;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+@media screen and (max-width: 428px) {
+  p {
+    font-size: 10px;
+    padding: 0%;
+  }
+  footer {
+    font-size: 10px;
+    padding: 0%;
+  }
+}

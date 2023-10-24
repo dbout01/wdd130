@@ -1,0 +1,25 @@
+label {
+  color: white;
+}
+
+.navbar {
+  background-color: #740023;
+  overflow: hidden;
+  position: relative;
+  bottom: -3px;
+  width: 35.3%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: solid;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}

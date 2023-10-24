@@ -1,0 +1,7 @@
+.mountains {
+  grid-column: 2/7;
+  grid-row: 5/8;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
